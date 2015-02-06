@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Assignment 4</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.validation/1.13.1/jquery.validate.min.js"></script>
+<script src="main.js"></script>
+<style type="text/css">
+.dashes {
+	color: #b80000;
+	background-color: #FFF;
+	font-size: 22px;
+	text-decoration: bold;
+}
+</style>
+</head>
+<body>
+	<section>
+		<h2> Please Register </h2>
+		<form id="custForm" method="POST" action="success.html">		
+	        <lable for="nameField">
+	            First Name <br/>
+	            <input class="req" id="first_name" type="text" name="userName" placeholder="your_first_name" /><br/><br/>
+	            Last Name <br/>
+	            <input class="req" id="last_name" type="text" name="userName" placeholder="your_last_name" /><br/><br/>
+	            Email <br/>
+	            <input class="req" id="emailField" type="email" name="userEmail" placeholder="your_email" /><br/><br/>
+	             Address <br/>
+	            <input class="req" id="addressField" type="address" name="userAddress" placeholder="your_address" /><br/><br/>
+	            Phone Number <br/>
+	            <input class="req" id="phoneField" type="phone" name="userPhone" placeholder="10 digit phone number" />
+	            <span class="propVals"></span> <br/><br/>
+	        </lable> <br/><br/>		
+			
+			<lable for="button">
+				<input id="buttonField" type="submit" name="submit" value="Submit" />
+			</lable>
+		</form>
+	</section>
+</body>
+</html>
